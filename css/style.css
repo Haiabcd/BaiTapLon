@@ -7,15 +7,25 @@ body{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 #wrapper{
-    background-color: gray;
+    background-color: white;
     width:898px ;
-    height: 4000px;
+    height: 3600px;
+    margin: 0 auto;
+    position: relative;
+   
 }
 #container{
-    background-color: aquamarine;
     width:828px;
-    height: 4000px;
+    /* height: 3674px; */
+    height: 3600px;
     margin: 0 auto;
+   padding-top: 10px;
+}
+#background{
+    width: 1026px;
+    background-color: gainsboro;
+    height: 3800px;
+    padding-top: 75px;
 }
 
 /* ============================MENU================================ */
@@ -33,6 +43,7 @@ body{
     display: flex;
     justify-content: space-between;
     height: 30px;
+
 }
 .logo span{
     font-size: 15px;
@@ -59,6 +70,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 /* ========IMG BIG======== */
 .img_big img{
@@ -116,21 +129,23 @@ body{
 .img_paris img{
     margin-top: 63px;
     height: 377px;
-    /* width: 898px; */
+    /* width: 899px; */
     width: 100%;
-    position: relative;
-}
-/* .img_paris{
-    position: relative;
-} */
-.text{
     position: absolute;
-    color: aliceblue;
-    font-weight: bold;
-    font-size: 20px;
-    /* top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
+    /* right: 36px; */
+    left: 0;
+}
+.img_paris{
+    margin-bottom: 328px;
+}
+
+.text{
+    color:white;
+    /* font-weight: bold; */
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 175px;
 }
 /* =====FASHION CATEGORY===== */
 .item_fs{
@@ -157,7 +172,69 @@ body{
 /* =========================FOOTER=============================== */
 #footer{
     margin-top: 71px;
+    padding-left: 35px;
+    padding-top: 39px;
     height: 338px;
-    width: 100%;
+    width: 898px;
     background-color: black;
+    position: absolute;
+    left: 0;
+ 
 }
+.grid_footer{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: 161px;
+    column-gap: 67px;
+}
+.footer_top{
+    display: flex;
+    height: 158px;
+    width: 825px;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 13px;
+    margin-bottom: 70px;
+
+} 
+.item_footer ul li{
+    list-style: none;
+    padding-bottom: 18px;
+    
+}
+.item_footer ul li a{
+    color: grey;
+    text-decoration: none;
+}
+.footer_left h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+ .item_footer h4{
+    padding-bottom: 18px;
+} 
+
+.item_footer button{
+    width: 150px;
+    height: 27px;
+}
+.footer_left img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+/* ==========footer bottom =========*/
+.footer_bottom{
+    border-top: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    width: 825px;
+}
+.footer_bottom span{
+    margin-top: 23px;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+
