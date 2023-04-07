@@ -9,12 +9,12 @@ body{
 #wrapper{
     background-color: gray;
     width:898px ;
-    height: 3000px;
+    height: 4000px;
 }
 #container{
     background-color: aquamarine;
     width:828px;
-    height: 3000px;
+    height: 4000px;
     margin: 0 auto;
 }
 
@@ -88,6 +88,7 @@ body{
     grid-template-columns: auto auto auto;
     grid-template-rows: 395px;
     column-gap: 15px;
+    padding-top: 28px;
 
 }
 .items img{
@@ -109,8 +110,9 @@ body{
     grid-template-columns: auto auto;
     grid-template-rows: 395px;
     column-gap: 15px;
+    padding-top: 28px;
 }
-/* =====IMG PARIS */
+/* =====IMG PARIS===== */
 .img_paris img{
     margin-top: 63px;
     height: 377px;
@@ -118,15 +120,44 @@ body{
     width: 100%;
     position: relative;
 }
-.img_paris{
+/* .img_paris{
     position: relative;
-}
+} */
 .text{
     position: absolute;
     color: aliceblue;
     font-weight: bold;
     font-size: 20px;
-    top: 50%;
-    left: 50%;
+    /* top: 50%;
+    left: 50%; */
     /* transform: translate(-50%, -50%); */
+}
+/* =====FASHION CATEGORY===== */
+.item_fs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.img_FS1{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 252px;
+    column-gap: 15px;
+    padding-top: 28px;
+}
+.img_FS2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 340px;
+    column-gap: 15px;
+    padding-top: 28px;
+}
+/* =========================FOOTER=============================== */
+#footer{
+    margin-top: 71px;
+    height: 338px;
+    width: 100%;
+    background-color: black;
 }
