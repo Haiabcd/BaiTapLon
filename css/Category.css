@@ -28,34 +28,6 @@ body{
     padding-top: 75px;
 }
 
-/* ============================MENU================================ */
-.info ul li {
-    display: inline-block;
-    list-style: none;
-}
-.info li:hover a{
-    color: aqua;
-}
-.logo span:hover{
-    color: red;
-}
-.info ul li a{
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 10px;
-    color: black;
-}
-#menu{
-    display: flex;
-    justify-content: space-between;
-    height: 30px;
-
-}
-.logo span{
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-}
 /* ================================CLOTHINGAN================================ */
 .clothingan h1{
     font-size: 120px;
