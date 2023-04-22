@@ -8,8 +8,8 @@ body{
 }
 
 #container{
-    width:900px ;
-    height: 1149px;
+    width:901px ;
+    height: 2181px;
     margin: 0 auto;
     background-color: white;
     border: 2px solid black;
@@ -38,7 +38,7 @@ body{
     justify-content: center;
 }
 
-/* ===================================CONTACT================================ */
+/* ===========================MAKE YOUR STYLE============== */
 
 .border_border_contact{
     width: 898PX;
@@ -62,137 +62,107 @@ body{
     font-size: 36px;
     font-weight: bold;
     color: #FFFFFF;
-    width: 180px;
+    width: 350px;
     height: 44px;
-    
 }
 
-/* =======================CONTENT================== */
-.content {
+/* ============================MENU================================ */
+#menu{
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+}
+
+.info{
+    margin-top: 6px;
+}
+
+.info ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 5px;
+}
+.info li:hover a{
+    color: aqua;
+}
+.logo span:hover{
+    color: red;
+}
+.info ul li a{
+    text-decoration: none;
+    font-weight: inherit;
+    font-size: 16px;
+    color: black;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+
+}
+.logo span{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 96px;
+    margin-top: 10px;
+}
+
+/* ================IMG=============== */
+.img_big img{
+    height: 561px;
+    margin-top: 45px;
+}
+
+.choose {
+    height: 50px;
+    margin-top: 45px;
+    background-color: #26A586;
+}
+
+.link p{
+    height: 45px;
+    background-color: #9B8888;
+    margin-top: 20px;
+}
+
+.link p a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+}
+
+.link p a:hover{
+    color: blue;
+}
+
+/* =====================product================= */
+
+.img_product{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    margin-top: 24px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
     margin-left: 35px;
 }
 
-.Form{
-    width: 391px;
-    height: 375px;
-    display: flex;
-    flex-direction: column;
-    background-color: red;
-    justify-content: center;
-    align-items: center;
+.img_product a img{
+    width: 245px;
+    height: 350px;
 }
 
-.Form h2{
-    color: red;
-    background-color: #020202;
-    width: 256px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Form input{
-   margin-bottom: 15px;
-   border: 1px solid black;
-   margin: 10px auto;
-   width: 286px;
-   height: 32px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.Form input:nth-child(4){
-   width: 286px;
-   height: 127px;
-}
-
-.Form button{
-    width: 286px;
-    height: 32px;
-   margin: 10px auto;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-/* ==================OTHER CONTACT============ */
-
-.other_contact{
-    width: 391px;
-    height: 375px;
-    display: flex;
-    flex-direction: column;
-    background-color: red;
-    align-items: center;
-    text-align: center;
-}
-
-.other_contact h2{
-    color: red;
-    background-color: #020202;
-    width: 256px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.other_contact p{
-    margin-bottom: 15px;
-    width: 286px;
-    height: 32px;
-    border: 1px solid black;
-    background-color: white;
-}
-
-.other_contact p:nth-child(4){
-    height: 59px;
-}
-
-/* ==================CONTACT================== */
-
-.contact{
-    width: 528px;
-    height: 177px;
-    margin-top: 24px;
-    display: flex;
-    flex-direction: column;
-    background-color: red;
-    justify-content: center;
-    align-items: center;
-    margin-left: 175px;
-}
-
-.text h2{
-    color: red;
-    background-color: #020202;
-    width: 256px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 18px;
-}
-
-.img img{
-    width: 50px;
-    height: 50px;
-    margin-left: 5px;
+.img_product a:hover{
+    color: blue;
 }
 
 /* =========================FOOTER=============================== */
 #footer{
-    margin-top: 37px;
+    margin-top: 45px;
     padding-left: 35px;
     padding-top: 10px;
-    height: 341px;
+    height: 325px;
     width: 898px;
     background-color: black;
     left: 0;
@@ -254,3 +224,4 @@ body{
     margin-bottom: 40px;
     font-size: 13px;
 }
+
