@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#container{
+    width:900px ;
+    height: 1991px;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* ================================CLOTHINGAN================================ */
+.clothingan h1{
+    font-size: 120px;
+    font-weight: bolder;
+    color: red;
+    font-size: 64px;
+    font-weight: bold;
+
+}
+.clothingan h1:hover{
+    color: red;
+}
+.clothingan{
+    width: 898PX;
+    height: 80px;
+    background-color: #020202;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===========================RETURN POLICY============== */
+
+.border_border_contact{
+    width: 898PX;
+    height: 88px;
+    background-color: #26a586;
+    border: 1px solid #26a586;
+}
+
+.border_contact{
+    background-color: #829634;
+    width: 527PX;
+    height: 49px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.border_contact h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 300px;
+    height: 44px;
+}
+
+/* =========================CONTENT=============== */
+
+.content{
+    margin-top: 50px;
+}
+
+.text_content_1 h4{
+    color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_content_1{
+    width: 798px;
+    height: 454px;
+    background-color: #90BE95; 
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.text_content_2 h4{
+    color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_content_2{
+    width: 798px;
+    height: 265px;
+    background-color: #90BE95; 
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.text_content_3{
+    background-color: #020202;
+    width: 798px;
+    height: 45px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.text_content_3 h3{
+    color: #FF0000;
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.text_content_4 h4{
+    color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_content_4{
+    width: 798px;
+    height: 431px;
+    background-color: #90BE95; 
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+.text_content_5 h4{
+    color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_content_5{
+    width: 798px;
+    height: 90px;
+    background-color: #90BE95; 
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+/* =========================FOOTER=============================== */
+#footer{
+    margin-top: 45px;
+    padding-left: 35px;
+    padding-top: 10px;
+    height: 339px;
+    width: 898px;
+    background-color: black;
+    left: 0;
+ 
+}
+.grid_footer{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: 161px;
+    column-gap: 67px;
+}
+.footer_top{
+    display: flex;
+    height: 158px;
+    width: 825px;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 13px;
+    margin-bottom: 70px;
+
+} 
+.item_footer ul li{
+    list-style: none;
+    padding-bottom: 18px;
+    
+}
+.item_footer ul li a{
+    color: grey;
+    text-decoration: none;
+}
+.footer_left h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+ .item_footer h4{
+    padding-bottom: 18px;
+} 
+
+.item_footer button{
+    width: 150px;
+    height: 27px;
+}
+.footer_left img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+/* ==========footer bottom =========*/
+.footer_bottom{
+    border-top: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    width: 825px;
+}
+.footer_bottom span{
+    margin-top: 23px;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
