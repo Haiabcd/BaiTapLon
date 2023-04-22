@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#container{
+    width:900px ;
+    height: 1149px;
+    margin: 0 auto;
+    background-color: #829634;
+    border: 2px solid black;
+}
+
+/* ================================CLOTHINGAN================================ */
+.clothingan h1{
+    font-size: 120px;
+    font-weight: bolder;
+    color: red;
+    font-size: 64px;
+    font-weight: bold;
+
+}
+.clothingan h1:hover{
+    color: red;
+}
+.clothingan{
+    width: 898PX;
+    height: 80px;
+    background-color: #020202;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===================================CONTACT================================ */
+
+.border_border_contact{
+    width: 898PX;
+    height: 88px;
+    background-color: #26a586;
+    border: 1px solid #26a586;
+}
+
+.border_contact{
+    background-color: #829634;
+    width: 527PX;
+    height: 49px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.border_contact h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 180px;
+    height: 44px;
+    
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin-top: 24px;
+    margin-left: 35px;
+}
+
+.Form{
+    width: 391px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form h2{
+    color: red;
+    background-color: #020202;
+    width: 256px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form input{
+   margin-bottom: 15px;
+   border: 1px solid black;
+   margin: 10px auto;
+   width: 286px;
+   height: 32px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Form input:nth-child(4){
+   width: 286px;
+   height: 127px;
+}
+
+.Form button{
+    width: 286px;
+    height: 32px;
+   margin: 10px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* ==================OTHER CONTACT============ */
+
+.other_contact{
+    width: 391px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    align-items: center;
+    text-align: center;
+}
+
+.other_contact h2{
+    color: red;
+    background-color: #020202;
+    width: 256px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.other_contact p{
+    margin-bottom: 15px;
+    width: 286px;
+    height: 32px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.other_contact p:nth-child(4){
+    height: 59px;
+}
+
+/* ==================CONTACT================== */
+
+.contact{
+    width: 528px;
+    height: 177px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    margin-left: 175px;
+}
+
+.text h2{
+    color: red;
+    background-color: #020202;
+    width: 256px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.img img{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+/* =========================FOOTER=============================== */
+#footer{
+    margin-top: 37px;
+    padding-left: 35px;
+    padding-top: 10px;
+    height: 341px;
+    width: 898px;
+    background-color: black;
+    left: 0;
+ 
+}
+.grid_footer{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: 161px;
+    column-gap: 67px;
+}
+.footer_top{
+    display: flex;
+    height: 158px;
+    width: 825px;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 13px;
+    margin-bottom: 70px;
+
+} 
+.item_footer ul li{
+    list-style: none;
+    padding-bottom: 18px;
+    
+}
+.item_footer ul li a{
+    color: grey;
+    text-decoration: none;
+}
+.footer_left h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+ .item_footer h4{
+    padding-bottom: 18px;
+} 
+
+.item_footer button{
+    width: 150px;
+    height: 27px;
+}
+.footer_left img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+/* ==========footer bottom =========*/
+.footer_bottom{
+    border-top: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    width: 825px;
+}
+.footer_bottom span{
+    margin-top: 23px;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
