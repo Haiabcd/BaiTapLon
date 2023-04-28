@@ -94,6 +94,9 @@ background: #ffffff;
     width: 200px;
     height: 31px;
 }
+#nav a:hover{
+    color: red;
+}
 
 
 /* MENU */
@@ -108,7 +111,7 @@ background: #ffffff;
     padding-left: 38px;
 }
 #menu a:hover{
-    color: grey;
+    color: red;
 }
 
 
@@ -158,3 +161,121 @@ background: #ffffff;
     font-size: 20px;
     margin: 0 0 8px;
 }
+
+/* //=======FOOTER==========// */
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+     height: 396px;
+     color: #999999;
+     background: #000;
+     padding-top: 40px;
+ }
+ 
+ 
+ .footer_left{
+     width: 410px;
+     height: 395px;
+     padding: 0 80px 0 15px;
+    
+ }
+ .footer_left ul{
+     margin-top: 24px;
+ 
+ }
+ 
+ .footer_left li{
+     color: #999999;
+     font-size: 16px;
+     margin: 0 0 15px;
+     padding: 0 0 0 24px;
+     padding-left: 2px;
+ }
+ 
+ .footer_left li img{
+     width: 15px;
+     height: 18px;
+ }
+ 
+ .footer_center{
+     width: 410px;
+     height: 395px;
+     padding: 0 15px;
+     font-size: 16px;
+ 
+ }
+ 
+ .footer_center h4{
+     /* display: flex;
+     justify-content: center; */
+     height: 25px;
+     font-size: 18px;
+     margin: 2px 0 24px;
+     text-align: center;
+ }
+ .footer_center p{
+     /* display: flex;
+     justify-content: center; */
+     text-align: center;
+     width: 100%;
+     height: 24px;
+     margin: 0 0 20px;
+ }
+ .button_input{
+     position: relative;
+     width: 100%;
+ }
+ .button_input input{
+     width: 100%;
+     height: 43px;
+   
+ }
+ 
+ .button_input img{
+     position: absolute;
+     right: 2px;
+     top: 2px;
+     width: 40px;
+     height: 40px;
+ }
+ .icon_ft img{
+     width: 43px;
+     height: 43px;
+ 
+     
+ }
+ .icon_ft {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 15px;
+ }
+ 
+ 
+ .footer_right{
+     padding: 0px 15px 0px 100px;
+ }
+ .footer_right h4{
+     /* display: flex;
+     justify-content: center; */
+     height: 25px;
+     font-size: 18px;
+     margin: 2px 0 24px;
+ }
+ .footer_right ul{
+     margin: 0px 0px 45px;
+ }
+ .footer_right  li{
+     list-style: none;
+     margin: 0 0 15px;
+ }
+
+ .footer_right a{
+     text-decoration: none;
+     color: #999999;
+    
+ }
+ 
+ 
