@@ -140,6 +140,19 @@ background: #ffffff;
     max-width: 100%;
     height: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* <!-- KẾT THÚC PHẦN SLIDER --> */
 
 
@@ -156,7 +169,7 @@ background: #ffffff;
     color: #333333;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 0px;
+    margin-right: 480px;
 
 }
 .title_enjoy{
@@ -203,12 +216,12 @@ background: #ffffff;
 #allproducts{
     width: 1899px;
     /* height: 952px; */
-    background-color:  aqua;
+    /* background-color:  aqua; */
     margin: 0 0 50px;
     font-size: 16px;
 }
 #products_aothun{
-    background-color: #999999;
+    /* background-color: #999999; */
     max-width: 1230px;
     padding-right: 15px;
     padding-left: 15px;
@@ -228,16 +241,10 @@ background: #ffffff;
     /* height:887.89px;  */
     grid-template-columns:1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
 
 }
-.product_item{
-    border: 1px solid black;
-}
-.product_item img{
-    width: 285px;
-    height: 285px;
-    margin-left: 10px;
-}
+
 .product_info {
     text-align: center;
     height: auto;
@@ -254,8 +261,9 @@ background: #ffffff;
     justify-content: center;
     align-items: center;
     color: #333333;
+    font-weight: 700;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 18px;
 }
 .product_item_xt a:hover{
     color: rgb(225, 100, 100);
@@ -264,21 +272,186 @@ background: #ffffff;
 .products a:hover{
     color: rgb(225, 100, 100);
 }
+/* /////// */
+.product_item img{
+    width: 100%;
+    height: 285px;
+     
+}
+.product_item{
+    overflow: hidden;
+}
+/* <!-- KẾT THÚC PRODUCT ÁO THUN  --> */
+
+
+/* //===================hover chuyển ảnh=====================// */
+.box-hover {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.box-hover #change{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+}
+.box-hover:hover #change{
+    right: -100%;
+    opacity: 0;
+}
+
+
+/* ============================= CHUYEN HINH============================= */
+.slider_imgs a{
+    display: flex;
+}
+
+
+
+.slider_imgs a img{
+    width: 100%;
+    height: 290.5px;
+}
+.slider_imgs input{
+    display: none;
+}
+.mySlides img{
+    height: 290.5px;
+} 
+.lableslider {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.lableslider label{
+    border: 1px solid #c8c8c8;
+    background-size: 26px;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    margin-right: 10px;
+}
+.lableslider label:hover{
+    border: 1px solid red;
+}
+.lableslider label img{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 32px;
+}
+
+/* =============KẾT THÚC CHUYEN HINH======================= */
+
+
+/* ===============CHỈNH RIÊNG ================ */
+#img1:checked ~a .imgslider1{
+    opacity: 0;
+}
+#img2:checked ~a .imgslider2{
+    opacity: 0;
+}
+
+#img4:checked ~a .imgslider4{
+    opacity: 0;
+}
+
+#polo2:checked ~a .imgsliderpl2{
+    opacity: 0;
+}
+#polo3:checked ~a .imgsliderpl3{
+    opacity: 0;
+}
+#ak5:checked ~a .imgsliderak5{
+    opacity: 0;
+}
+
+#pk6:checked ~a .imgsliderpk6{
+    opacity: 0;
+}
+
+#img6:checked ~a .imgslider6{
+    opacity: 0;
+}
 
 
 
 
 
 
+/* ================================= */
 
 
 
+/* ============================sales======================== */
+.sale{
+    background-color: #D52220;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    width: 46px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+   
+}
+.slider_imgs{
+    position: relative;
+}
+/* ============================kết thúc sales================ */
 
 
+/* ============================HOVER XUẤT HIỆN GIỎ HÀNG======================== */
+.buy_now{
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    background-color: rgb(2, 99, 99);
+    color: #fff;
+    padding: 10px 0;
+    padding-left: 35%;
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+.slider_imgs:hover .buy_now{
+     opacity: 1; 
+}
+
+/* ============================KẾT THÚC HOVER XUẤT HIỆN GIỎ HÀNG================= */
 
 
+/* <!-- IMAGE GẦN FOOTER --> */
+#IMG_END{
+    width: 1899px;
+    margin: 0 0 50px;
+    margin-bottom: 70px;
+}
+#img_end{
+    display: grid;
+    width: 1200px;
+    height: 594px;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+
+    margin: 0 auto;
+}
+#IMG_END h2{
+    font-size: 40px;
+    text-align: center;
+    border-top: 1px #D9D9D9 solid;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
 
 
+/* <!-- KẾT THÚC IMAGE GẦN FOOTER --> */
 
 /* //=======FOOTER==========// */
 #footer{
