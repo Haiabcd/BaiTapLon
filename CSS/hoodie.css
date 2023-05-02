@@ -13,6 +13,18 @@ body{
     height:3359px;
     background-color: #F5F5F5;
 }
+a{
+    text-decoration: none;
+    color: #333333;
+}
+li{
+    list-style: none;
+}
+/*  PHẦN HEADER */
+
+
+
+
 
 /* SEARCH_CART*/
 #header_top{
@@ -120,6 +132,7 @@ background: #ffffff;
 }
 
 
+
 /* <!-- KẾT THÚC PHẦN HEADER --> */
 
 
@@ -136,9 +149,12 @@ background: #ffffff;
 
 #product_big{
     width: 1230px;
-    margin-top: 40px;
+    margin-top: 10px;
     height: auto;
     margin-right: 350px;
+}
+.healine  a{
+    font-size: 40px;
 }
 
 #danhMuc{
@@ -153,11 +169,12 @@ background: #ffffff;
     /* max-width: 1230px; */
     width: 1200px;
     /* height: 888px; */
-    height: auto;
+    /* height: auto; */
     /* height:887.89px;  */
     grid-template-columns:1fr 1fr 1fr 1fr ;
     /* grid-template-rows: 1fr 1fr ; */
     column-gap: 10px;
+   
    
 }
 
@@ -186,7 +203,10 @@ background: #ffffff;
 .name_danhMuc a:hover{
     color: red;
 }
-
+.name_danhMuc{
+    margin-left: 30px;
+    margin-top: 10px;
+}
 /* //=============================================================================================================================// */
 
 /* //====================SAN PHAM==================// */
@@ -226,8 +246,8 @@ background: #ffffff;
 
 .product_item{
     border: 1px solid #F5F5F5;
-    /* overflow: hidden; */
-    
+    overflow: hidden;
+    height: 450px;
 }
 
 
@@ -285,6 +305,7 @@ background: #ffffff;
 /* #img1:checked ~a .imgslider1{
     opacity: 0;
 } */
+
 
 .lableslider label img{
     position: absolute;

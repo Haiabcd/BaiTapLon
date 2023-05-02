@@ -13,6 +13,13 @@ body{
     height:3359px;
     background-color: #F5F5F5;
 }
+a{
+    text-decoration: none;
+    color: #333333;
+}
+li{
+    list-style: none;
+}
 
 /* SEARCH_CART*/
 #header_top{
@@ -136,9 +143,10 @@ background: #ffffff;
 
 #product_big{
     width: 1230px;
-    margin-top: 40px;
+    margin-top: 10px;
     height: auto;
     margin-right: 350px;
+    
 }
 
 #danhMuc{
@@ -147,6 +155,11 @@ background: #ffffff;
     padding: 15px 27px;
     margin: 0px 0px 70px;
 }
+.name_danhMuc{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
 
 .products{
     display: grid;
@@ -186,7 +199,10 @@ background: #ffffff;
 .name_danhMuc a:hover{
     color: red;
 }
-
+.healine a{
+    font-size: 40px;
+    padding: 0 20px 0 0;
+}
 /* //=============================================================================================================================// */
 
 /* //====================SAN PHAM==================// */
@@ -227,7 +243,7 @@ background: #ffffff;
 .product_item{
     border: 1px solid #F5F5F5;
     /* overflow: hidden; */
-    
+    height: 450px;
 }
 
 

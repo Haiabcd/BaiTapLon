@@ -242,7 +242,6 @@ background: #ffffff;
     grid-template-columns:1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
     column-gap: 10px;
-
 }
 
 .product_info {
@@ -278,9 +277,10 @@ background: #ffffff;
     height: 285px;
      
 }
-.product_item{
+/* .product_item{
     overflow: hidden;
-}
+    height:450px
+} */
 /* <!-- KẾT THÚC PRODUCT ÁO THUN  --> */
 
 
