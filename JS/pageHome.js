@@ -8,12 +8,3 @@ changeImage = function (){
     }
 }
 setInterval(changeImage,1000);
-
-
-
-
-
-function sliderImage(id){
-          let imagePath = document.getElementById(id).getAttribute('scr');
-          document.getElementById('img-main').setAttribute('src',imagePath);
-}

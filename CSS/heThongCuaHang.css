@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Futura",sans-serif;
+    color: #333333;
+}   
+#wrapper{
+    width: 1519.200px;
+    /* width: 100%; */
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+li{
+    list-style: none;
+}
+/* SEARCH_CART*/
+#header_top{
+
+    background: #F5F5F5;
+    padding: 5px 0;
+    height: 50px;
+    width: 1899px;
+}
+.search_cart{
+    background: #f5f5f5;
+    width: 1230px;
+    height: 40px;
+    margin: 0px 334.5px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.search{
+ position: relative;
+background: #ffffff;
+}
+.search input{
+    width: 240px;
+    height: 40px;
+    border:1px solid grey;
+}
+.search_cart a{
+    /* width: 32px;
+    height: 28px; */
+     /* background-size: 32px; 
+     position: relative;
+    display: block;  */
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.search i{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    line-height: 40px;
+    border: none;
+    border-radius: 2px;
+    background: #545457;
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* NAV */
+#nav{
+    font-size: 16px; 
+    width: 1200px;
+    height: 77.8px;
+    font-family: "Futura",sans-serif;
+    margin: 0 auto;
+    border-bottom: 1px solid #ECECEC;
+
+    margin: 0 334.5px;
+
+    
+
+}
+#nav ul{
+   height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0;
+}
+#nav li{
+    align-items: center;
+}
+#nav img{
+    width: 200px;
+    height: 31px;
+}
+#nav a:hover{
+    color: red;
+}
+
+
+/* MENU */
+#menu{
+    font-size: 16px; 
+    width: 1200px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 334.5px;
+}
+#menu a{
+   padding: 15px 15px 17px;
+}
+#menu a:hover{
+    color: red;
+}
+
+
+/* <!-- KẾT THÚC PHẦN HEADER --> */
+
+
+/* <!-- PHẦN SLIDER --> */
+#slider img{
+    width: 100%;
+    height: 610.76px;
+}
+/* <!-- KẾT THÚC PHẦN SLIDER --> */
+
+/* //=====comment=======// */
+
+.comment{
+    /* display: flex;
+    justify-content: center; */
+    color: #333333;
+    font: 16px;
+    padding: 0px 15px;
+    margin-left: 330px;
+}
+
+.system{
+    margin-left: 40px;
+}
+
+.comment h4{
+    margin-bottom: 15px;
+    color: #333333;
+    font-size: 40px;
+}
+
+.system ul li{
+    margin-bottom: 15px;
+}
+
+.system ul li h4{
+    margin-bottom: 15px;
+}
+
+.system ul li a:hover{
+    color: red;
+}
+
+
+/* //=======FOOTER==========// */
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1899px;
+     height: 396px;
+     color: #999999;
+     background: #000;
+     padding-top: 40px;
+ }
+ 
+ 
+ .footer_left{
+     width: 410px;
+     /* height: 395px; */
+     padding-right: 80px;
+     padding-left: 15px;
+    
+ }
+ .footer_left ul{
+     margin-top: 24px;
+ 
+ }
+ 
+ .footer_left li{
+     color: #999999;
+     font-size: 16px;
+     margin: 0 0 15px;
+     padding: 0 0 0 24px;
+     padding-left: 2px;
+ }
+ 
+ .footer_left li img{
+     width: 15px;
+     height: 18px;
+ }
+ 
+ .footer_center{
+     width: 410px;
+     /* height: 395px; */
+     padding: 0 15px;
+     font-size: 16px;
+ 
+ }
+ 
+ .footer_center h4{
+     height: 25px;
+     font-size: 18px;
+     margin: 2px 0 24px;
+     text-align: center;
+ }
+ .footer_center p{
+     text-align: center;
+     width: 100%;
+     height: 24px;
+     margin: 0 0 20px;
+ }
+ .button_input{
+     position: relative;
+     width: 100%;
+ }
+ .button_input input{
+     width: 100%;
+     height: 43px;
+   
+ }
+ 
+ .button_input img{
+     position: absolute;
+     right: 2px;
+     top: 3px;
+     width: 40px;
+     height: 37px;
+ }
+ .icon_ft img{
+     width: 43px;
+     height: 43px;
+ 
+     
+ }
+ .icon_ft {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 15px;
+ }
+ 
+ 
+ .footer_right{
+    width: 410px;
+     padding: 0px 15px 0px 100px;
+ }
+ .footer_right h4{
+     height: 25px;
+     font-size: 18px;
+     margin: 2px 0 24px;
+ }
+ .footer_right ul{
+     margin: 0px 0px 45px;
+ }
+ .footer_right  li{
+     list-style: none;
+     margin: 0 0 15px;
+ }
+
+ .footer_right a{
+     text-decoration: none;
+     color: #999999;
+    
+ }
