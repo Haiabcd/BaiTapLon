@@ -53,7 +53,7 @@ background: #ffffff;
      position: relative;
     display: block;  */
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .search i{
@@ -302,13 +302,34 @@ background: #ffffff;
     opacity: 0;
 }
 
+/* CHUYEN HINH NHIEU ANH */
+.choose_hover{
+    display: flex;
+    overflow: hidden;
+}
+.choose_hover:hover #change2{
+    margin-left: -100%;
+}
+.choose_img{
+    position: relative;
+}
+.sales2{
+    top: 0;
+    background-color: #D52220;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    width: 46px;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+}
+/* KET THUC CHUYEN HINH NHIEU ANH */
 
 /* ============================= CHUYEN HINH============================= */
 .slider_imgs a{
     display: flex;
 }
-
-
 
 .slider_imgs a img{
     width: 100%;
@@ -342,6 +363,8 @@ background: #ffffff;
     width: 30px;
     border-radius: 32px;
 }
+
+
 
 /* =============KẾT THÚC CHUYEN HINH======================= */
 
@@ -422,7 +445,22 @@ background: #ffffff;
 .slider_imgs:hover .buy_now{
      opacity: 1; 
 }
-
+.buy{
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    background-color: rgb(2, 99, 99);
+    color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    bottom: 35px;
+    transition: 0.5s ease-in-out;
+}
+.choose_img:hover .buy{
+    opacity: 1; 
+}
 /* ============================KẾT THÚC HOVER XUẤT HIỆN GIỎ HÀNG================= */
 
 
