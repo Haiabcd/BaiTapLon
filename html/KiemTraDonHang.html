@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tìm Kiếm | Teelab </title>
+    <title>Kiểm Tra Đơn Hàng | Teelab </title>
 
-    <link rel="stylesheet" href="../CSS/TimKiem.css">
+    <link rel="stylesheet" href="../CSS/kiemTraDonHang.css">
     <link rel="stylesheet" href="../FONT/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="../FONT/fontawesome/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,7 +14,6 @@
 
 <body>
     <div class="wrapper">
-
         <!-- PHAN HEADER -->
 
         <div id="header">
@@ -46,34 +45,49 @@
 
             <!-- MENU -->
              <div id="menu">
-                <a href="">Tất cả sản phẩm </a> 
-                <a href="../HTML/aoThun.html">Áo thun</a>
-                <a href="../HTML/aoPolo.html">Áo polo</a>
-                <a href="../HTML/aoSoMi.html">Áo sơ mi</a>
-                <a href="../HTML/aoKhoac.html">Áo khoác</a>
-                <a href="../HTML/hoodie.html">Hoodie</a>
-                <a href="../HTML/quan.html">Quần</a>
-                <a href="../HTML/phuKien.html">Phụ kiện</a>
+                    <a href="">Tất cả sản phẩm</a>
+                    <a href="../HTML/aoThun.html">Áo thun</a>
+                    <a href="../HTML/aoPolo.html">Áo polo</a>
+                    <a href="../HTML/aoSoMi.html">Áo sơ mi</a>
+                    <a href="../HTML/aoKhoac.html">Áo khoác</a>
+                    <a href="../HTML/hoodie.html">Hoodie</a>
+                    <a href="../HTML/quan.html">Quần</a>
+                    <a href="../HTML/phuKien.html">Phụ kiện</a>
              </div>   
 
            </div>
 
             <!-- KẾT THÚC PHẦN HEADER -->
 
-            <!-- /* //==========Bang size==========// */ -->
-            <div class="comment">
-                <div>
-                    <h1>Nhập từ khóa để tìm kiếm</h1>
-                </div>
-                
-                <form class="example" action="action_page.php">
-                    <input type="text" placeholder="Bạn cần tìm gì ?" name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
-            
+            <!-- //===========commen==========// -->
 
-        <!-- //==========FOOTER=========// -->
+           <div class="comment">
+                <div class="title">
+                    <br>
+                    <span><i class="fa fa-search"></i>       Kiểm Tra Đơn Hàng Của Bạn</span>
+
+                    <div class="content">
+                        <div class="content_small">
+                            <br>
+                            Kiểm Tra Bằng <br> <br>
+                            <input type="radio" name="dangNhap"> Số điện thoại
+                            <input type="radio" name="dangNhap"> Email
+                            <br>
+                            <br>
+                            <p>Số Điện Thoại</p>
+                            <input type="text" placeholder="0909 xxx xxx" id="SDT">
+                            <button id="kiemtra">Kiểm Tra</button>
+                        </div>
+                    </div>
+                </div>
+           </div>
+
+                
+
+                
+
+
+            <!-- //==========FOOTER=========// -->
         <div id="footer">
             <div class="footer_left">
                 <a href=""><img src="../IMAGES/logo_footer.webp" alt="" srcset=""></a>
@@ -105,7 +119,6 @@
                     <a href="https://www.tiktok.com/@teelab.vn"><img src="../IMAGES//tiktok.png" alt=""></a>
                     <a href="https://shopee.vn/teelab_official"><img src="../IMAGES//shoppee.png" alt=""></a>
                     <a href="https://lazada.vn/shop/teelab"><img src="../IMAGES//lazada.webp" alt=""></a>
-    
                 </div>
         
             </div>
