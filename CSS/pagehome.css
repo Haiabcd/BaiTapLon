@@ -59,7 +59,7 @@ background: #ffffff;
 .search i{
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: 1.8px;
     line-height: 40px;
     border: none;
     border-radius: 2px;

@@ -59,7 +59,7 @@ background: #ffffff;
 .search i{
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: 1.8px;
     line-height: 40px;
     border: none;
     border-radius: 2px;
@@ -132,11 +132,52 @@ background: #ffffff;
 
 .comment{
     display: grid;
-    margin-left: 550px;
+    margin-left: 630px;
     color: #333333;
     font: 16px;
     padding: 0px 15px;
 }
+
+.comment h1{
+    margin: 40px 0px 40px 70px;
+}
+
+form{
+    margin-bottom: 40px;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 500px;
+    background: #f1f1f1;
+  }
+  
+
+  form.example button {
+    float: left;
+    width:50px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 /* //=======FOOTER==========// */
 #footer{
